@@ -26,7 +26,7 @@ export class GuestGuard {
     if (this.authService.syncIsLoggedIn) {
       return this.redirectToDashboard();
     }
-    if (url === '/auth/login' || url === '/auth/register') {
+    if (url === '/auth/login' || url === '/auth/register' || url === '/') {
       return true;
     }
     return this.redirectToDashboard();

@@ -15,6 +15,14 @@
       "age": 24,
       "proPic": "https://placedog.net/500",
       "id": 2
+    },
+    {
+      "email": "user123@user123.it",
+      "password": "$2a$10$jBMA3PYmy5q.BiTSJX6qPezZXhsE4aZEizEHO1Xi2Tslp6dQPSJj2",
+      "username": "user123",
+      "age": 12,
+      "proPic": "https://placedog.net/500",
+      "id": 3
     }
   ],
   "movies-popular": [
@@ -137,6 +145,14 @@
       "image": "https://placedog.net/500",
       "description": "Ducimus maxime magn",
       "id": 15
+    },
+    {
+      "title": "Recusandae Velit in",
+      "duration": 49,
+      "rating": 2,
+      "image": "https://placedog.net/500",
+      "description": "Repudiandae labore p",
+      "id": 16
     }
   ],
   "favorites": [

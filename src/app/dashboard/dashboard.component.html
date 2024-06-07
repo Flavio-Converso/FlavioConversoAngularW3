@@ -1,0 +1,25 @@
+<section>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4" *ngFor="let movie of movies">
+        <div class="card h-100 shadow-sm">
+          <img [src]="movie.image" class="card-img-top" alt="{{movie.title}}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{movie.title}}</h5>
+            <p class="card-text"><strong>Duration:</strong> {{movie.duration}} min</p>
+            <p class="card-text">{{movie.description}}</p>
+            <p class="card-text"><strong>Rating:</strong> {{movie.rating}}</p>
+            <div class="mt-auto d-flex justify-content-between">
+              <button class="btn btn-primary btn-sm" (click)="toggleFavourite(movie)">
+                {{ isFavourite(movie) ? 'Rimuovi dai Preferiti' : 'Aggiungi ai Preferiti' }}
+              </button>
+              <button class="ms-1 btn btn-danger btn-sm" (click)="deleteMovie(movie.id)">Elimina Film</button>
+              <button class="ms-1 btn btn-warning btn-sm" [routerLink]="['/dashboard/movie', movie.id]">Dettagli
+                Film</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

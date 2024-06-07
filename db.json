@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "email": "user@user.com",
+      "password": "$2a$10$wlg1PWqCJlmnQAME26v.fuhqujFWrqi9DQkF8A8q6oB/Ki47Z2udO",
+      "username": "user",
+      "age": 25,
+      "proPic": "https://placedog.net/500",
+      "id": 1
+    },
+    {
+      "email": "user2@user2.com",
+      "password": "$2a$10$7hd0PfqXNbakjemaAzKqGeHKJaGFGz39yP/4Upt481Zy.pa9ePZAq",
+      "username": "user2",
+      "age": 24,
+      "proPic": "https://placedog.net/500",
+      "id": 2
+    }
+  ],
+  "movies-popular": [
+    {
+      "title": "Reprehenderit libero",
+      "duration": 84,
+      "rating": 3,
+      "image": "https://placedog.net/500",
+      "description": "Anim consequatur sed",
+      "id": 1
+    },
+    {
+      "title": "Mystery of the Shadows",
+      "duration": 112,
+      "rating": 8,
+      "image": "https://placedog.net/500",
+      "description": "An intriguing tale of suspense and mystery.",
+      "id": 2
+    },
+    {
+      "title": "Echoes of Time",
+      "duration": 95,
+      "rating": 7,
+      "image": "https://placedog.net/500",
+      "description": "A journey through the echoes of time and history.",
+      "id": 3
+    },
+    {
+      "title": "Whispers in the Dark",
+      "duration": 101,
+      "rating": 6,
+      "image": "https://placedog.net/500",
+      "description": "A chilling story of whispers and secrets.",
+      "id": 4
+    },
+    {
+      "title": "The Last Voyage",
+      "duration": 128,
+      "rating": 9,
+      "image": "https://placedog.net/500",
+      "description": "The epic final voyage of a legendary explorer.",
+      "id": 5
+    },
+    {
+      "title": "Beyond the Horizon",
+      "duration": 110,
+      "rating": 10,
+      "image": "https://placedog.net/500",
+      "description": "A breathtaking adventure beyond the horizon.",
+      "id": 6
+    },
+    {
+      "title": "Secrets of the Past",
+      "duration": 89,
+      "rating": 4,
+      "image": "https://placedog.net/500",
+      "description": "Unearthing secrets long buried in the past.",
+      "id": 7
+    },
+    {
+      "title": "The Forgotten Realm",
+      "duration": 99,
+      "rating": 5,
+      "image": "https://placedog.net/500",
+      "description": "Exploring a realm forgotten by time.",
+      "id": 8
+    },
+    {
+      "title": "Realm of Dreams",
+      "duration": 105,
+      "rating": 7,
+      "image": "https://placedog.net/500",
+      "description": "A fantastical journey through a realm of dreams.",
+      "id": 9
+    },
+    {
+      "title": "Guardian of the Light",
+      "duration": 120,
+      "rating": 8,
+      "image": "https://placedog.net/500",
+      "description": "The epic tale of the guardian of the light.",
+      "id": 10
+    },
+    {
+      "title": "Echoes of Silence",
+      "duration": 113,
+      "rating": 6,
+      "image": "https://placedog.net/500",
+      "description": "A haunting story of echoes in silence.",
+      "id": 11
+    },
+    {
+      "title": "Whispers of the Night",
+      "duration": 97,
+      "rating": 5,
+      "image": "https://placedog.net/500",
+      "description": "Whispers that fill the night with mystery.",
+      "id": 12
+    },
+    {
+      "title": "The Lost City",
+      "duration": 104,
+      "rating": 9,
+      "image": "https://placedog.net/500",
+      "description": "An adventure to find the lost city.",
+      "id": 13
+    },
+    {
+      "title": "Journey to the Unknown",
+      "duration": 111,
+      "rating": 7,
+      "image": "https://placedog.net/500",
+      "description": "A daring journey into the unknown.",
+      "id": 14
+    },
+    {
+      "title": "Ut accusantium velit",
+      "duration": 22,
+      "rating": 2,
+      "image": "https://placedog.net/500",
+      "description": "Ducimus maxime magn",
+      "id": 15
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "movie": {
+        "title": "Reprehenderit libero",
+        "duration": 84,
+        "rating": 3,
+        "image": "https://placedog.net/500",
+        "description": "Anim consequatur sed",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "title": "Mystery of the Shadows",
+        "duration": 112,
+        "rating": 8,
+        "image": "https://placedog.net/500",
+        "description": "An intriguing tale of suspense and mystery.",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "title": "Whispers in the Dark",
+        "duration": 101,
+        "rating": 6,
+        "image": "https://placedog.net/500",
+        "description": "A chilling story of whispers and secrets.",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "title": "The Forgotten Realm",
+        "duration": 99,
+        "rating": 5,
+        "image": "https://placedog.net/500",
+        "description": "Exploring a realm forgotten by time.",
+        "id": 8
+      },
+      "id": 5
+    }
+  ]
+}

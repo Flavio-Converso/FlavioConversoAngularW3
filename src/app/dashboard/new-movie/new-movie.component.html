@@ -1,0 +1,40 @@
+<section class="vh-100">
+  <form [formGroup]="createMovieForm" (ngSubmit)="createMovie()">
+
+    <div class="container d-flex flex-column align-items-center pt-5">
+      <div class="mb-3">
+        <span class="display-6 fw-bold">Add new movies</span>
+      </div>
+      <div class="d-flex flex-column gap-3 w-50">
+        <div class="d-flex flex-column gap-3">
+          <input class="form-control" formControlName="title" placeholder="Title">
+          <div *ngIf="createMovieForm.get('title')?.invalid && createMovieForm.get('title')?.touched">
+            <strong class="text-danger">Title is required</strong>
+          </div>
+
+          <input class="form-control" type="number" formControlName="duration" placeholder="Duration (minutes)">
+          <div *ngIf="createMovieForm.get('duration')?.invalid && createMovieForm.get('duration')?.touched">
+            <strong class="text-danger">Duration must be more than 1 min</strong>
+          </div>
+
+          <input class="form-control" type="number" formControlName="rating" placeholder="Rating">
+          <div *ngIf="createMovieForm.get('rating')?.invalid && createMovieForm.get('rating')?.touched">
+            <strong class="text-danger">Rating must be between 1 and 10</strong>
+          </div>
+
+          <input class="form-control" formControlName="image" placeholder="url image">
+          <div *ngIf="createMovieForm.get('image')?.invalid && createMovieForm.get('image')?.touched">
+            <strong class="text-danger">Image URL is required</strong>
+          </div>
+        </div>
+
+        <textarea class="form-control" rows="5" formControlName="description" placeholder="Description"></textarea>
+        <div *ngIf="createMovieForm.get('description')?.invalid && createMovieForm.get('description')?.touched">
+          <strong class="text-danger">Description is required</strong>
+        </div>
+
+        <button class="btn btn-success btn-sm" type="submit" [disabled]="createMovieForm.invalid">Add New Movie</button>
+      </div>
+    </div>
+  </form>
+</section>

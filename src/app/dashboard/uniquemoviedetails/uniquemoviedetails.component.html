@@ -1,12 +1,10 @@
 <section class="vh-100">
   <div class="container d-flex flex-column align-items-center pt-5">
     <h1>Dettagli del film</h1>
-    <div *ngIf="movie">
-      <img class="img-fluid mx-auto" [src]="movie.image">
-      <h2 class="text-center">{{ movie.title }}</h2>
-      <p class="text-center fs-2">Duration: {{ movie.duration }}min</p>
-      <p class="text-center fs-2">Description: {{ movie.description }}</p>
-      <p class="text-center fs-2">Rating: {{ movie.rating }}</p>
-    </div>
+    <img class="img-fluid " [src]="movie.image">
+    <h2 class="text-center">{{ movie.title }}</h2>
+    <p class="text-center fs-2">Duration: {{ movie.duration }}min</p>
+    <p class="text-center fs-2">Description: {{ movie.description }}</p>
+    <p class="text-center fs-2">Rating: {{ movie.rating }}</p>
   </div>
 </section>
